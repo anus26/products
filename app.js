@@ -280,11 +280,17 @@ const seeall=(btn)=>{
     console.log(btn.innerHTML)
     const seeall =products.filter(item=>item.category === btn.innerHTML).map(item =>{
             div.innerHTML +=`<h1>name:${item.name}</h1>
-//  <h5>price:${item.price}</h5>
-//    <h5>category:${item.category}</h5>
-//   <h5>brand:${item.brand}</h5>`
+ <h5>price:${item.price}</h5>
+  <h5>category:${item.category}</h5>
+  <h5>brand:${item.brand}</h5>`
         })
         console.log(seeall);
     }
+    const price=[799.9,399.9]
+// const price=products.price
+    const sum=price.reduce((accumlator ,initialvalue)=>{
+    return accumlator + initialvalue
+    }, 0)
+    console.log(sum);
         
-        
+    
