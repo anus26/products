@@ -318,8 +318,8 @@ const seeall=(btn)=>{
 // console.log(sum);
 
 
-console.log('raza');
-console.log('raza');
-console.log('raza');
+// console.log('raza');
+// console.log('raza');
+// console.log('raza');
 
 
