@@ -286,11 +286,40 @@ const seeall=(btn)=>{
         })
         console.log(seeall);
     }
-    const price=[799.9,399.9]
+    // const price=[799.9,399.9]
 // const price=products.price
-    const sum=price.reduce((accumlator ,initialvalue)=>{
-    return accumlator + initialvalue
-    }, 0)
-    console.log(sum);
+    // const sum=price.reduce((accumlator ,initialvalue)=>{
+    // return accumlator + initialvalue
+    // }, 0)
+    // console.log(sum);
         
+   
     
+
+
+
+// call back function
+// higer order function
+
+// products.map(function (item) {
+//     console.log(item);
+// })
+
+
+// // reduce
+// const  num =[1,1,1,1]
+// const shallowCopy=num.slice(3)
+// console.log(shallowCopy);
+
+
+// const sum =num.reduce((accumlator,initialvalue)=>{
+// return accumlator + initialvalue
+// }, 0)
+// console.log(sum);
+
+
+console.log('raza');
+console.log('raza');
+console.log('raza');
+
+
