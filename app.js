@@ -320,6 +320,39 @@ const seeall=(btn)=>{
 
 // console.log('raza');
 // console.log('raza');
-// console.log('raza');
+//  console.log('raza');
+//  hello()
+// function () {
+//     console.log('hello4');
+    
+// }
+// console.log('hello5');
 
 
+
+
+
+
+// synchronous
+// asynchronous
+
+console.log('hello1');
+console.log('hello1');
+console.log('hello1');
+setTimeout(()=>{
+    console.log('hello2');
+},0)
+console.log('hello3');
+
+
+
+// settimeout
+// setInterval
+// promise
+// async await
+// axios
+// fetch
+
+
+// API
+// application programing interface
